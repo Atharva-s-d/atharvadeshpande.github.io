@@ -278,3 +278,53 @@ td:hover {
     border-left: 5px solid #BFAE9E;
     border-radius: 20px;
 }
+
+#btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+
+    background-color: #1E293B;
+    color: #E2E8F0;
+
+    border: 2px solid #334155;
+    border-radius: 30px;
+
+    cursor: pointer;
+
+    transition: 
+        background-color 0.3s ease,
+        color 0.3s ease,
+        transform 0.2s ease,
+        box-shadow 0.3s ease;
+}
+
+#btn:hover {
+    background-color: #38BDF8;
+    color: #0F172A;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+}
+
+#btn:active {
+    transform: scale(0.95);
+}
+
+#btn:focus {
+    outline: none;
+}
+
+#btn {
+    background-color: #FFF7E8;
+    color: #4A3B2A;
+    border: 2px solid #BFAE9E;
+}
+
+#btn:hover {
+    background-color: #C76D3A;
+    color: white;
+}
